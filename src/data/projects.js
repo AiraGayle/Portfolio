@@ -16,7 +16,7 @@ const projects = [
     url: 'https://next-stop-chi.vercel.app/',
     github: 'https://github.com/4Chronosx/NextStop',
     image: '/images/NextStop.png',
-    video: '/videos/NextStopDemo.mp4'
+    video: 'dLBBwokbejE'
   },
   {
     id: 'blackjack',
@@ -33,7 +33,7 @@ const projects = [
     tags: ['Godot', 'GDScript'],
     github: 'https://github.com/KANKAN25/BlackJackMafia',
     image: '/images/BlackJack.png',
-    video: '/videos/BlackJackDemo.mp4', 
+    video: 'HFJ5MSqFIAc', 
   },
   {
     id: 'focus',

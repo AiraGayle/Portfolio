@@ -25,13 +25,13 @@ export default function ProjectOverlay({ project, onClose }) {
         {/* Video takes priority over image */}
         <div className="overlay-media">
           {project.video ? (
-            <video
+            <iframe
               className="overlay-video"
-              src={project.video}
-              controls
-              playsInline
-              preload="metadata"
-            />
+              src={`https://www.youtube.com/embed/${project.video}`}
+              allowFullScreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              style={{ border: 'none' }}
+          />
           ) : project.image ? (
             <img src={project.image} alt={project.name} className="overlay-img-actual" />
           ) : (
